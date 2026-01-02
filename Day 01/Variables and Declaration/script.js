@@ -4,6 +4,7 @@ var a = 10; // decalration and initialization using var
 var a; // decelaration using var
 
 let b = 20; // declaration and initialization using let
+// let b; // declaration using let (not allowed, will throw error)
 
 const dulha = "Ajeet"; // declaration and initialization using const
 const dulhan = "Ankita"; // declaration and initialization using const
@@ -19,6 +20,7 @@ var y = 2;
 var z = 3;
 {
     let c = 4;
+    const u = 5;
 }
 
 //03). reassignment and redeclaration
@@ -30,7 +32,7 @@ let n = 25; // declaration and initialization using let
 n = 30; // reassignment using let
 // let n = 35; // redeclaration using let (not allowed, will throw error)
 
-//04). Temporal Dead Zone (TDZ):- utna are jitne mein js ko pata to hai ki variable karta hai par wo value nahi de sakta.
+//04). Temporal Dead Zone (TDZ):- utna area jitne mein js ko pata to hai ki variable karta hai par wo value nahi de sakta.
 console.log(p); 
 
 
@@ -40,7 +42,7 @@ let p = 10; //declaration and initialization using let
 
 var w = undifined; //declaration part uper chala gaya
 //05). hoisting impact per type
-// Hosting:- ek variable ko js mein bannate hai to wo variable do hisso mein toot jaata hai and uska declare part uper chala jaata hai and uska initialization part neeche chala jaata hai.
+// Hosting:- ek variable ko js mein bannate hai to wo variable doo hisso mein toot jaata hai and uska declare part uper chala jaata hai and uska initialization part neeche chala jaata hai.
 // var w = 12;
 
 console.log(w); 
