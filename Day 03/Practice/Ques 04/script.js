@@ -5,16 +5,16 @@ function calc(a, b, operator) {
 } */
 function calc(a, b, operator) {
   switch (operator) {
-    case '+':
+    case "+":
       return a + b;
 
-    case '-':
+    case "-":
       return a - b;
 
-    case '*':
+    case "*":
       return a * b;
 
-    case '/':
+    case "/":
       if (b === 0) {
         return "Error: Division by zero";
       }
@@ -24,10 +24,8 @@ function calc(a, b, operator) {
       return "Invalid operator";
   }
 }
-
-// Examples
-console.log(calc(10, 5, '+')); // 15
-console.log(calc(10, 5, '-')); // 5
-console.log(calc(10, 5, '*')); // 50
-console.log(calc(10, 5, '/')); // 2
-console.log(calc(10, 0, '/')); // Error
+console.log(calc(10, 5, "+")); // 15
+console.log(calc(10, 5, "-")); // 5
+console.log(calc(10, 5, "*")); // 50
+console.log(calc(10, 5, "/")); // 2
+console.log(calc(10, 0, "/")); // Error
